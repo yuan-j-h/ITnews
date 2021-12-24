@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录ITnews"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/signInAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="40dp"
+        android:hint="请输入用户名"
+        android:textColorHint="#7B7D7D"
+        android:textSize="20sp"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@drawable/translucent"
+        />
+    <EditText
+        android:id="@+id/signInPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:hint="请输入密码"
+        android:textColorHint="#7B7D7D"
+        android:textSize="20sp"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@drawable/translucent"
+        />
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:text="登录"
+        android:textSize="20dp"
+        android:background="#9DA1A0"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/signInRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册账号"
+            android:textSize="15sp"
+            android:textColor="#414141"
+            android:layout_marginLeft="24dp" />
+        <TextView
+            android:id="@+id/signInForget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码"
+            android:textSize="15sp"
+            android:textColor="#414141"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
